@@ -125,7 +125,7 @@ if uploaded_contract_docx is not None:
 llm_4 = AzureChatOpenAI(azure_endpoint="https://pz-ew-aoi-np-digitaltrans-002.openai.azure.com/",
                          azure_deployment="gpt-4", 
                          api_key="78f01f0edc74441d859f5eb346a240dc",
-                         openai_api_version="2023-12-01-preview", max_tokens=900,temperature=0)
+                         openai_api_version="2023-12-01-preview", max_tokens=1200,temperature=0)
 
 llm_4turbo = AzureChatOpenAI(azure_endpoint="https://pz-ew-aoi-np-digitaltrans-003.openai.azure.com/",
                        azure_deployment="gpt-4-1106-turbo", 
